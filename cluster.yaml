@@ -47,7 +47,7 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: delalixx/productcatalogservice:latest
+        image: delalixx/productcatalogservice:v1
         ports:
         - containerPort: 3550
         env:
